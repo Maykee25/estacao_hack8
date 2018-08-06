@@ -11,6 +11,12 @@ h1,h2{
 }
 
 p{
-    color: red;
+    margin-left: 10px;
+}
 
+button{
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
 }
