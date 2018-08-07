@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- determina a linguagem do seu documento, neste caso em ingles-->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para otimizar o site para tipos de tela-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Minha primeira página</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- vinculo com arquivo css -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> <!-- link para a fonte escolhida-->
 </head>
 <body>
+    <header> <!-- representa o grupo que seria a introdução do site-->
+    <nav class="menu"> <!-- representa uma seção da pagina que contem links-->
 
-    <nav>
+        <img src="img/Logo.png" alt="logotipo">
         <a href="http://mastertech.tech">Mastertech</a>
         <a href="http://facebook.com">Facebook</a>
         <a href="#">Meus contatos</a>
-        <a href="http://www.pudim.com.br">O site do pudim</a>
+        
     </nav>
-
+    </header>
     <h1>Titulo da página</h1>
 
     <aside>
@@ -28,17 +30,23 @@
     </aside>
 
     <section>
+
+        <p id="comentario">
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+        </p>
+        <img id="gato" src="https://www.sonhos.club/wp-content/uploads/2018/04/sonhar-com-gato.jpg" alt="">
+        <p class="legenda"> mood de segunda - feira</p>
         <p>
             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
         </p>
-        <img src="https://www.sonhos.club/wp-content/uploads/2018/04/sonhar-com-gato.jpg" alt="">
-        <p>mood de segunda - feira</p>
-    </section>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/RIBsfhcAZww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-    <footer>
+    </section>  
+
+    <footer class="rodape">
         <button>Clique aqui</button>
         <button>Clique aqui</button>
-        <button>Clique aqui também</button>
+        <button id="especial">Clique aqui também</button>
     </footer>
 </body>
 </html>

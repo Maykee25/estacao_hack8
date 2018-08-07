@@ -10,13 +10,65 @@ h1,h2{
     font-weight: 800;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+}
+
+.menu a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #f45042
+}
+
+.menu img{
+    height:100%;    
+    width: 90px;
+    float: right;
+    padding-left: 15px;
+}
+
 p{
     margin-left: 10px;
 }
 
+
+.rodape{
+    background-color:salmon;
+    display: inherit;
+    height: 120px;
+}
+
+#especial{
+    border: solid lightskyblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
 button{
     border: solid black 2px;
     background-color: white;
     border-radius: 8px;
     padding: 10px;
+}
+
+.legenda{
+    color: darkslategray;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+#gato{
+    width: 500px;
+    height: 100%;
+}
+
+#comentario{
+    display: flex;
 }
